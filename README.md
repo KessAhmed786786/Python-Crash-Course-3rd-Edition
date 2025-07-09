@@ -3,7 +3,7 @@
 Goal of completing the book to obtain relevant skills
 
 Part 1: Chapters 1-11
-[ ] Chapter 1
+[x] Chapter 1
 
 [ ] Chapter 2
 
