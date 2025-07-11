@@ -8,3 +8,12 @@ name = "ada lovelace"
 
 # Using .title() string function, print tweaked name
 print(name.title())
+
+# Declaring variable name, mix of lower and upper
+name = "Ada LoveLace"
+
+# Uppercase all
+print(name.upper())
+
+# Lowercase all
+print(name.lower())
