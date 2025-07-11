@@ -8,3 +8,9 @@ message = "Hello Python world!"
 
 # Print the variable message
 print(message)
+
+# Reassigning value
+message = "Hello Python Crash Course world!"
+
+# Print out the new message
+print(message)
