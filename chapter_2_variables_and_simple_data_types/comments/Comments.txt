@@ -1,0 +1,15 @@
+# Chapter 2 - Variables and Simple Data Types
+# Kess Ahmed, 18th July 2025
+
+CONTENTS:
+# [x] How Do You Write Comments?
+# [x] What Kinds of Comments Should You Write?
+# [x] Exercise 2-11: Adding Comments
+
+How Do You Write Comments?
+- Should add notes to documment, purpose and explain complicated parts for reference for others and yourself
+- Use # to create a single line comment
+
+What Kinds of Comments Should You Write?
+- Helpful for reference after a long time to understand how all the pieces fit together 
+- Save time by summarizing the overall approach
