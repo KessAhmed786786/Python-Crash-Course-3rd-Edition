@@ -1,0 +1,49 @@
+# Chapter 2 - Variables and Simple Data Types
+# Kess Ahmed, 18th July 2025
+
+CONTENTS:
+# [x] Integers
+# [ ] Floats
+# [ ] Integers and Floats
+# [ ] Underscores in Numbers
+# [ ] Multiple Assignment
+# [ ] Constants
+# [ ] Exercise 2-9: Number Eight
+# [ ] Exercise 2-10: Favorite Number
+
+Integers
+- add +
+- subtract - 
+- mutliply *
+- divide /
+- exponents **
+- brackets () order control
+
+Floats
+- Decimal point number : 2.2
+- Handles decimal numbers no matter where the decimal position is 
+- Same operations as integers
+- 0.2 + 0.1 = 0.30000000000000004 - computer logic, near zero accuracy
+
+Integers and Floats
+- Any division float or integer, results in float
+- Mix any integer with a float, results in float
+- Python defaults to a float in any operation that uses a float, even if the
+output is whole number
+
+Underscores in Numbers
+- Longer numbers can group digits using underscore: universe_age: 14_000_000_000_000
+- Printing underscored number, results in underscores removed: 14000000000000
+- Works with both floats, integers and can have _ anywhere: 1_000, 10_00
+
+Multiple Assignment
+- Shorten programs by assigning on a single line, used to intialize a set
+- x, y, z = 0, 0, 0
+- Make sure the same number is on either end seperated by commas
+
+Constants
+- Value that stays the same throughout the program lifetime
+- No built-in constant type, however use capitals to indicate it 
+- MAX_CONNECTOINS = 5000
+
+
