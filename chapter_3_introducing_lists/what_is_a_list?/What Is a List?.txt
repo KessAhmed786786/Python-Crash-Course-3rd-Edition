@@ -1,0 +1,34 @@
+# Chapter 3 - Introducing Lists
+# Kess Ahmed, 18th July 2025
+
+CONTENTS:
+# [x] Accessing Elements in a List
+# [x] Index Positions Start at 0, Not 1
+# [x] Using Individual Values from a List
+# [x] Exercise 3-1: Names
+# [x] Exercise 3-2: Greetings
+# [x] Exercise 3-3: Your Own List
+
+What is a List?
+- List, a collection of items in a particular order
+- Can contain, letters, digits, names basically anything and even unrelated
+- Example: bicycles = ['trek', 'redline']
+- Printing a list, the whole list is done
+
+Accessing Elements in a List
+- Access by using the position, Index
+- Example: print(bicycle[0])
+- Can use string methods because, this element is a string
+- Example: print(bicycle[0].title())
+
+Index Positions Start at 0, Not 1
+- Position 0 begins, not 1
+- Keep note, as to avoid off by one error
+- Access the final item in a list by using -1
+- Example: print(bicycles[-1])
+- Works by simply, -2, 2nd to last, -3, 3rd to last
+
+Using Individual Values from a List
+- Use in obtaining items from a list, performing methods
+- Forming f-string and printing message
+Example: message = f"My first bicycle was a {bicycle[0].title()}."
