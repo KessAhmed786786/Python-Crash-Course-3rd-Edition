@@ -3,13 +3,13 @@
 
 CONTENTS:
 # [x] Integers
-# [ ] Floats
-# [ ] Integers and Floats
-# [ ] Underscores in Numbers
-# [ ] Multiple Assignment
-# [ ] Constants
-# [ ] Exercise 2-9: Number Eight
-# [ ] Exercise 2-10: Favorite Number
+# [x] Floats
+# [x] Integers and Floats
+# [x] Underscores in Numbers
+# [x] Multiple Assignment
+# [x] Constants
+# [x] Exercise 2-9: Number Eight
+# [x] Exercise 2-10: Favorite Number
 
 Integers
 - add +
