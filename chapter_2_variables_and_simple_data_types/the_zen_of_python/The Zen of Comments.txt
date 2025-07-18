@@ -1,0 +1,17 @@
+# Chapter 2 - Variables and Simple Data Types
+# Kess Ahmed, 18th July 2025
+
+CONTENTS:
+# [x] Exercise 2-12: Zen of Python
+
+- Avoid complexity and strive for simplicity
+- You can import that zen of python by Tim Peters, python writing philosophy
+- Code is both beautiful and elegant, well-designed, efficient
+
+
+- Beautiful is better than ugly
+- Simple is better tha complex
+- Complex is better that complicated
+- Readability counts
+- There should be one-- and preferably only one --obvious way to do it 
+- Now is better than never
