@@ -1,0 +1,29 @@
+# Chapter 3 - Introducing Lists
+# Kess Ahmed, 19th July 2025
+
+CONTENTS:
+# [x] Sorting a List Permanently with the sort() Method
+# [x] Sorting a List Temporary with the sorted() Function
+# [x] Printing a List in Reverse Order
+# [x] Finding the Length of a List
+# [x] Exercise 3-8: Seeing the World
+# [x] Exercise 3-9: Dinner Guests
+# [x] Exercise 3-10: Every Function
+
+Sorting a List Permanently with the sort() Method
+- Sort list permanently using the sort, alphabetically, no way to revert original order
+- sort() Method Example: cars.sort()
+- Sort in reverse-alphabetically order 
+- sort() reverse example: cars.sort(reverse=True)
+
+Sorting a List Temporary with the sorted() Function
+- Temporary, sort for one time actions
+- sorted example: print(sorted(cars))
+
+Printing a List in Reverse Order
+- Take the original list, reverse, non-alphabetically, permanently
+- example: cars.reverse(), print(cars)
+
+Finding the Length of a List
+- Find the number of elements in a list, using len 
+- example: len(cars)
