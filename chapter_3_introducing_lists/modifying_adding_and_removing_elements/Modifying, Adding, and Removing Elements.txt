@@ -1,0 +1,37 @@
+# Chapter 3 - Introducing Lists
+# Kess Ahmed, 19th July 2025
+
+CONTENTS:
+# [x] Modifying Elements in a List
+# [x] Adding Elements in a List
+# [x] Removing Elements from a List
+# [x] Exercise 3-4: Guest List
+# [x] Exercise 3-5: Changing Guest List
+# [x] Exercise 3-6: More Guests
+# [x] Exercise 3-7: Shrinking Guest List
+
+Modifying Elements in a List
+- Most list you will create a dynamic, build a list add and remove elements as the program runs
+- Changing values example: motorcycles[0] = 'ducati'
+- Chnage any item, with any index
+
+Adding Elements in a List
+- Use append to add items to list, at the end
+- Appending example: motorcycles.append('ducati')
+- Can start empty and add items over time in program
+- Add not just end, insert at any position
+- Insert example: motorcycles.insert(0, 'ducati')
+
+Removing Elements from a List
+- Remove any item at any position based on position
+- del example: del motorcycles[0]
+- Removing an item using the pop() method 
+- Remove the last item in a stack and use that item 
+- pop() example: last_owned = motorcycles.pop()
+- pop() can be used throughout the list any position 
+- example: first_owned = motorcycles.pop(0)
+- Removing an item by value, know the value, unknown position
+- remove example: motorcycles.remove('ducati')
+- note: only removes first instances, if more, need loop
+
+
