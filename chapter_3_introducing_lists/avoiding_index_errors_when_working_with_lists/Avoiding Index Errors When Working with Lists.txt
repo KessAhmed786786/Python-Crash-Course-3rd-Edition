@@ -1,0 +1,11 @@
+# Chapter 3 - Introducing Lists
+# Kess Ahmed, 19th July 2025
+
+CONTENTS:
+# [x] Avoiding Index Errors When Working with Lists
+
+Avoiding Index Errors When Working with Lists
+- Off by one error, accessing elements out of bounds
+- Empty list, then -1 won't work 
+- Debug with len, debug with print the list 
+
