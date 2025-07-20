@@ -1,0 +1,21 @@
+# Chapter 4 - Working With Lists
+# Kess Ahmed, 20th July 2025
+
+CONTENTS:
+# [x] A Closer Look at Looping
+# [x] Doing More Work Within a for Loop
+# [x] Doing Something After a for Loop
+
+A Closer Look at Looping
+- Using looping to repeat code thousands or millions of iterations
+- Example: for magician in magicians: print(magician)
+- Repeats the set of actions once, per item in the list 
+- Use single and plural for defining the loop
+
+Doing More Work Within a for Loop
+- Use f-strings ot personalize
+- Each indentend line within is execute once for each value in the list
+- Helpful to end lines on \n to show neat groupings
+
+Doing Something After a for Loop
+- End with a summary print statement that is not indentend

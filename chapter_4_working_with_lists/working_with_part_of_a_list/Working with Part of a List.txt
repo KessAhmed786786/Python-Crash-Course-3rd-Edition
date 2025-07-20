@@ -1,0 +1,36 @@
+# Chapter 4 - Working With Lists
+# Kess Ahmed, 20th July 2025
+
+CONTENTS:
+# [x] Slicing a List
+# [x] Looping Through a Slice
+# [x] Copying a List
+# [x] Exercise 4-10: Slices
+# [x] Exercise 4-11: My Pizzas, Your Pizzas 
+# [x] Exercise 4-12: More Loops
+
+Slicing a List
+- Before, single elements and all elements, now part of elements
+- Similar to range, stops before the 2nd integer, formatted using a colon within the []
+- Example: print(players[0:3])
+- Can begin anywhere in the list
+- Omit the first element and it automatically begins at the start 
+- Example: print(players[:3])
+- Similar when starting in the middle and getting all elements until end
+- Example: print(players[2:])
+- If you want the last three elements use negatives
+- Example: print(players[-3:])
+
+Looping Through a Slice
+- Loop through a subset
+- Example: for player in players[:3]:
+
+Copying a List
+- Uses a slice, from the start to end to copy over, without specifiying the indicies
+- Example: friend_foods = my_foods[:]
+- This doesn't work, as both point to the original list
+- Example: friend_foods = my_foods
+
+Exercise 4-10: Slices
+Exercise 4-11: My Pizzas, Your Pizzas 
+Exercise 4-12: More Loops

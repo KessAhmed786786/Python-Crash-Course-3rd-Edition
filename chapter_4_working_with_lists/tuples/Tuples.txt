@@ -1,0 +1,22 @@
+# Chapter 4 - Working With Lists
+# Kess Ahmed, 20th July 2025
+
+CONTENTS:
+# [x] Defining a Tuple
+# [x] Looping Through All Values in a Tuple
+# [x] Writing Over a Tuple
+# [x] Exercise 4-13: Buffet
+
+Defining a Tuple
+- Lists can change, Tuples cannot change (immutable)
+- Declare just list a list, except using () not []
+- Example: dimensions = (200, 50)
+- If trying to reassign, TypeError: tuple object does not support item assignment
+
+Looping Through All Values in a Tuple
+- Works the same as a list
+- Example: for dimension in dimensions: print (dimension)
+
+Writing Over a Tuple
+- You cannot modify values in the tuple, but can reassign the old tuple name to a new one
+- dimensions = (200,50), dimensions = (400,100)

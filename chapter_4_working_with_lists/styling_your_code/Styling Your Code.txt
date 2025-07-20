@@ -1,0 +1,31 @@
+# Chapter 4 - Working With Lists
+# Kess Ahmed, 20th July 2025
+
+CONTENTS:
+- The Style Guide
+- Indentation
+- Line Length
+- Blank Lines
+- Other Style Guidelines
+- Exercise 4-14: PEP 8
+- Exercise 4-15: Code Review
+
+The Style Guide
+- Easy to read
+- Helps keep track or structure and other read it 
+- Develop universal guidlines when writing code, to make sure you are professional
+- Code is read more than it was written, write code once and begin debugging
+
+Indentation
+- 4 spaces per indentation level
+- Use tabs if the setting to convert tabs into spaces is ON 
+
+Line Length
+- Each code line less that 80 characters long
+- Each comment line less than 72 characters long 
+
+Blank Lines
+- Seperate programs functions, but group together parts
+- Less than 3 lines per gap, I use 1 usually
+
+Other Style Guidelines

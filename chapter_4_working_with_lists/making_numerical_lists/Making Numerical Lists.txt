@@ -1,0 +1,41 @@
+# Chapter 4 - Working With Lists
+# Kess Ahmed, 20th July 2025
+
+CONTENTS:
+# [x] Using the range() Function
+# [x] Using range() to Make a List of Numbers
+# [x] Simple Statistics with a List of Numbers
+# [x] List Comprehensions
+# [x] Exercise 4-3: Counting to Twenty
+# [x] Exercise 4-4: One Million
+# [x] Exercise 4-5: Summing a Million
+# [x] Exercise 4-6: Odd Numbers
+# [x] Exercise 4-7: Threes
+# [x] Exercise 4-8: Cubes
+# [x] Exercise 4-9: Cube Comprehension
+
+Using the range() Function
+- Used to generate a series of numbers 
+- Example: for value in range(1, 5): print(value)
+- Doesn't print 5, off by one, stops before the 2nd value
+- Single argument also works, for value in range(6): print(value)
+
+Using range() to Make a List of Numbers
+- Convert the range directly to a list
+- Example: numbers = list(range(1,6))
+- Pass argument in range, to skip numers in a given range, step size between values 
+- Example: even_numbers = list(range(2, 11, 2))
+- You can range, use modify each value, append to empty list 
+- Example: squares.append(value**2)
+- Code can use temp values, for ease to read, but simplify when reviewing to be more efficent
+
+Simple Statistics with a List of Numbers
+- Fins min, max and sum of elements of list
+- Example: min(digits)
+- Example: max(digits)
+- Example: sum(digits)
+
+List Comprehensions
+- Combines the for loop and the creation of new elements into one line and automatically appends each new element
+- Example: squares = [value**2 for value in range(1,11)]
+- Begin is list name (plural), inside square brackets, define expresion for the values you want in list, then write for loop to generate the numbers you want to feed into the expression

@@ -1,0 +1,30 @@
+# Chapter 4 - Working With Lists
+# Kess Ahmed, 20th July 2025
+
+CONTENTS:
+# [x] Forgetting to Indent
+# [x] Forgetting to Indent Additional Lines
+# [x] Indenting Unnecessarily
+# [x] Indenting Unnecessarily After the Loop 
+# [x] Forgetting the Colon
+# [x] Exercise 4-1: Pizzas
+# [x] Exercise 4-2: Animals
+
+Forgetting to Indent
+- Make sure to indent the correct lines
+- Indent the line afte the for loop statmeent
+- This is a syntax error
+
+Forgetting to Indent Additional Lines
+- Each line under that for statement should be same level of indentation
+- This is a logical error
+
+Indenting Unnecessarily
+- Line indentation is delicate, indentationError exists
+
+Indenting Unnecessarily After the Loop 
+- Make sure the last line of summary is not indented
+
+Forgetting the Colon
+- Colon indicates the start of the loop
+- Shows that simple fixes can eliminate bugs in the program
