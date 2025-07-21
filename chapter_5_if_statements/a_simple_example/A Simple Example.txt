@@ -1,0 +1,10 @@
+# Chapter 5 - If Statements
+# Kess Ahmed, 21st July 2025
+
+CONTENTS:
+- A Simple Example
+
+A Simple Example
+- Conditionals, allow code to run only when specific condtions are declared beforehand
+- Handle exceptions
+- Example: if car == 'bmw', print(car.upper()), else: print(car.title())
