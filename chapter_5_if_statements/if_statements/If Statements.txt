@@ -1,0 +1,53 @@
+# Chapter 5 - If Statements
+# Kess Ahmed, 21st July 2025
+
+CONTENTS:
+- Simple if Statements
+- if-else Statements 
+- The if-elif-else Chain 
+- Using Mutiple elif Blocks
+- Omitting the else Block
+- Testing Mutiple Conditions
+- Exercise 5-3: Alien Colors #1
+- Exercise 5-4: Alien Colors #2
+- Exercise 5-5: Alien Colors #3
+- Exercise 5-6: Stages of Life
+- Exercise 5-7: Favorite Fruit
+
+Simple if Statements
+- One test, one action is the simplest
+- Example: if condtional_test: do something
+- Indentation matters
+
+if-else Statements 
+- Defines actions or an action to take if the test fails
+- Example: else: print("Something else was done")
+- Good for 2 possible actions
+
+The if-elif-else Chain 
+- Good for mutiple situations
+- Runs down the structure until one satisfies the statement and executing that part only, skipping others
+- Example: if age < 4, elif age < 18, else: 
+- If printing statements that are similiar, change the value in the if-elif-else blocks, and print to one line
+
+Using Mutiple elif Blocks
+- You can chain together multiple elif blocks
+- Be wary of code execution, and know what the else will be beforehand
+
+Omitting the else Block
+- Sometimes it is clearer to remove the else
+- Using a elif there is more clearer and expandable
+- Else should be a catchall, when you haven't tested all options in the statements
+
+Testing Mutiple Conditions
+- Tests for one specific condtion, per: if-elif-else chain 
+- Use multiple if's, when checking all conditions of interest, if testing if something is true for many
+- One block use if-elif-else
+- Many blocks use many if's
+
+
+Exercise 5-3: Alien Colors #1
+Exercise 5-4: Alien Colors #2
+Exercise 5-5: Alien Colors #3
+Exercise 5-6: Stages of Life
+Exercise 5-7: Favorite Fruit
