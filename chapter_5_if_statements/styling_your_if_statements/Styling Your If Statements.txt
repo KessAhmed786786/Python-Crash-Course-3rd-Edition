@@ -1,0 +1,11 @@
+# Chapter 5 - If Statements
+# Kess Ahmed, 22nd July 2025
+
+CONTENTS:
+- Styling Your if Statements
+- Exercise 5-12: Styling if Statements
+- Exercise 5-13: Your Ideas
+
+Styling Your if Statements
+- PEP 8, recommends that a single space be used between operators of comparison such as. ==, >=, <=
+

@@ -1,0 +1,31 @@
+# Chapter 5 - If Statements
+# Kess Ahmed, 22nd July 2025
+
+CONTENTS:
+- Checking for Special Items
+- Checking That a List is Not Empty 
+- Using Multiple Lists
+- Exercise 5-8: Hello Admin 
+- Exercise 5-9: No Users
+- Exercise 5-10: Checking Usernames
+- Exercise 5-11: Ordinal Numbers
+
+Checking for Special Items
+- You can combine lists and if statements for seeking special values that need to be treated seperately
+- Within the for loop, if requested_toppping == 'green peppers': print("Sorry"), else: print(f"Adding {requested_toppping}")
+
+Checking That a List is Not Empty 
+- Sometimes lists are empty, based on user input, so looping won't work, therefore using a if statement to check is good practice
+- if requested_toppping: {code block} else: print("Are you sure empty?")
+- Making use of a falsy value like an empty list, False
+
+Using Multiple Lists
+- Use a 2 list check, one of a set of pre-defined correct values, the 2nd user input usually.
+- Compare using a for loop check with built in if statement
+- Example:
+for item_a in in items_a: if item_a in items_b: else: 
+
+Exercise 5-8: Hello Admin 
+Exercise 5-9: No Users
+Exercise 5-10: Checking Usernames
+Exercise 5-11: Ordinal Numbers
