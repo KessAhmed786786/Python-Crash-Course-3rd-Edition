@@ -1,0 +1,51 @@
+# Chapter 5 - Dictionaries
+# Kess Ahmed, 23st July 2025
+
+CONTENTS:
+- Looping Through All Key-Value Pairs
+- Looping Through All the Keys in a Dictionary
+- Looping Through a Dictionary's Keys in a Particular Order
+- Looping Throuhg All Values in a Dictionary
+- Exercise 6-4 Glossary 2
+- Exercise 6-5 Rivers
+- Exercise 6-6 Polling
+
+Looping Through All Key-Value Pairs
+- Since dictionary can contain millions of values you can loop through
+- Ways include: key-value, key, value
+- Example user_0 = {'username':'efermi', 'first':'enrico', 'last':'fermi',}
+- You can loop through all this data
+- Example: for key, value in user_0.items():
+    print(f"\nKey: {key}")
+    print(f"\nKey: {value}")
+- Use the correct values for a key and value, for example: key, value or name, language in poll example
+- Use the method of dictionary.items()
+
+Looping Through All the Keys in a Dictionary
+- Use the method of dictionary.keys():
+- Loop through only keys
+- Example: for name in fav_language.keys():
+- Actually default behaviour works the same of getting keys
+- Example: for name in fav_language:
+- You can choose to use the value of that speific key if it passes an if Statement
+- Example: language = fav_language[name]
+- Use to check if in:
+- Example: if 'erin' not in fav_language.keys():
+
+Looping Through a Dictionary's Keys in a Particular Order
+- Default looping is based on inherited order of items in dictionary 
+- Use sorted() function to loop before in alphabetically
+- Example: for name in sorted(fav_language.keys()):
+
+Looping Throuhg All Values in a Dictionary
+- If you want only to loop through values:
+- for language in fav_language.values():
+- However prone to repeating the same value (language)
+- Use set function to to collect each item if unique
+- Example: for language in set(fav_language.values()):
+- Sets can be directly built, unique values only
+- Example: languages = {'python', 'rust'}
+
+Exercise 6-4 Glossary 2
+Exercise 6-5 Rivers
+Exercise 6-6 Polling

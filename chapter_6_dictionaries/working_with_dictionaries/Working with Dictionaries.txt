@@ -1,0 +1,64 @@
+# Chapter 5 - Dictionaries
+# Kess Ahmed, 23st July 2025
+
+CONTENTS:
+- Accessing Values in a Dictionary
+- Adding New Key-Value Pairs
+- Starting with an Empty Dictionary
+- Modifying Values in a Dictionary 
+- Removing Key-Value Pairs
+- A Dictionary of Similar Objects 
+- Using get() to Access Values 
+- Exercise 6-1: Person
+- Exercise 6-2: Favorite Numbers
+- Exercise 6-3: Glossary
+
+Accessing Values in a Dictionary
+- A Dictionary is a collection of key-value pairs 
+- Value can be accessed by key, can be a number, string, list, another dictionary or any python object 
+- Can contain any number of Values
+- Acessing values Example
+- Example: print(alien_0['color'])
+
+Adding New Key-Value Pairs
+- You can add new key-value pairs at any point
+- Screen coordinates start from the upper left corner
+- alien_0['new key'] = 0 (value)
+- alien_0['x_pos'] = 0
+- The order added is the order when output, or looped
+
+Starting with an Empty Dictionary
+- Sometimes better to start empty
+- Example: alien_0 = {} 
+- Used in user-generated or auto-generated large dictionaries
+
+Modifying Values in a Dictionary 
+- Similar to acessing values
+- Example: alien_0['x pos'] = 50
+- Use by taking the old value and incrementing the value 
+- Example: alien_0['x pos'] = alien_0['x pos'] + x_increment
+
+
+Removing Key-Value Pairs
+- Use the del to delete a key-value pair
+- Example: del alien_0['points']
+- Removed permanently
+
+A Dictionary of Similar Objects 
+- Before we described one object with many details
+- Now we are describing many objects in one detail
+- Example: fav_language = {'jen': 'python', etc...}
+- Useful for a poll
+- Use spaces and indentation to format correctly, comma last character then enter
+
+Using get() to Access Values 
+- Using key's are fine, but if not existing you get an error
+- KeyError
+- get() allows for basic error handling, in programs
+- Example: point_value = alien_0.get('points', 'Not assigned')
+- Allows for a default value to be accessed, cleaner
+- If no 2nd message, no value None is returned
+
+Exercise 6-1: Person
+Exercise 6-2: Favorite Numbers
+Exercise 6-3: Glossary

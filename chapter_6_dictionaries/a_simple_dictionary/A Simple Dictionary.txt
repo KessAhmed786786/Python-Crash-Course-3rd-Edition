@@ -1,0 +1,11 @@
+# Chapter 5 - Dictionaries
+# Kess Ahmed, 23st July 2025
+
+CONTENTS:
+- A Simple Dictionary
+
+A Simple Dictionary
+- Connect pieces of related infromation
+- Access and modify the contents
+- Can store limitless amout of information
+- Example: alien_0 = {'color': 'green', 'points': 5}

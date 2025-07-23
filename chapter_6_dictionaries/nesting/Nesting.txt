@@ -1,0 +1,49 @@
+# Chapter 5 - Dictionaries
+# Kess Ahmed, 23st July 2025
+
+CONTENTS:
+- A List of Dictionaries
+- A List a Dictionary 
+- A Dictionary in a Dictionary
+- Exercise 6-7: People
+- Exercise 6-8: Pets
+- Exercise 6-9: Favorite Places
+- Exercise 6-10: Favorite Numbers
+- Exercise 6-11: Cities
+- Exercise 6-12: Extensions
+
+A List of Dictionaries
+- Nesting, when you nest a list in a dictionary or a dictionary in a list, basically a large object itself in another large object 
+- Dictionary IN list
+- List IN Dictionary
+- Dictionary IN Dictionary
+- You can do the following example of a dictionary of one item very detailed, which is found in a list of similar items
+- Example: aliens = [alien_0, alien_1, alien_2]
+- Use a range() to auto generate list items built from dictionaries
+- Make sure all dictionaries follow the same stucture to loop quickly
+
+A List a Dictionary 
+- Useful if an item has many things that can be related to it but follows the same stucture as others
+- Example: pizza = {'crust': 'thick', 'toppings': ['cheese','tomato'],}
+- To access each list item in dictionary
+- Example: for topping in pizza['topping']:
+- Breaking up long strings
+- Example: print("You ordered pizza " \n "with the following toppings:")
+- Auto joins the two strings 
+
+A Dictionary in a Dictionary
+- Many users in a website, unique usernames, store info about each username key, the value has user info such as first, last, location etc
+- Example:
+for username, user info in users.items():
+    print(f"\nUsername: {username}")
+    full_name = f"{user_info['first'] {user_info['last']}}"
+    location = user_info['location']
+    print(f"\tFull name: {full_name.title()}")
+    print(f"\tLocation: {location.title()}")
+
+Exercise 6-7: People
+Exercise 6-8: Pets
+Exercise 6-9: Favorite Places
+Exercise 6-10: Favorite Numbers
+Exercise 6-11: Cities
+Exercise 6-12: Extensions
