@@ -1,0 +1,31 @@
+# Chapter 7 - User Input and while Loops
+# Kess Ahmed, 24th July 2025
+
+CONTENTS:
+- Moving Items from One List to Another
+- Removing All Instances of Specific Values from a List
+- Filling a Dictionary with User Input
+- Exercise 7-8: Deli
+- Exercise 7-9: No Pastrami
+- Exercise 7-10: Dream Vacation
+
+Moving Items from One List to Another
+- One piece of info is quite basic, you need a list to gather pieces together from users to keep track
+- Don't modify a list in a for loop 
+- Using a while loop with lists and dictionaries allows you to collect, store and organize lots of input to examine and report on later
+- Example: 2 lists, while unconfirmed_users: pop(), print, append to 2nd list.
+
+Removing All Instances of Specific Values from a List
+- Removing using remove() to remove a specific value 
+- What about all instances of that specific value
+- Use a while loop to remove that value many times
+- Example: while 'cat' in pets: pets.remove('cat')
+
+Filling a Dictionary with User Input
+- You can prompt as much into a dictionary, key value pairs as many
+- Example: variable inputs, name response
+responses[name] = response
+
+Exercise 7-8: Deli
+Exercise 7-9: No Pastrami
+Exercise 7-10: Dream Vacation

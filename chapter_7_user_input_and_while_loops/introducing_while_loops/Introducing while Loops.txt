@@ -1,0 +1,51 @@
+# Chapter 7 - User Input and while Loops
+# Kess Ahmed, 24th July 2025
+
+CONTENTS:
+- The while Loop in Action 
+- Letting the User Choose When to Quit
+- Using a Flag 
+- Using break to Exit a Loop 
+- Using continue in a Loop 
+- Avoiding Infinite Loops 
+- Exercise 7-4: Pizza Toppings
+- Exercise 7-5: Movie Tickets
+- Exercise 7-6: Three Exits 
+- Exercise 7-7: Infinity 
+
+The while Loop in Action 
+- For loop executes a code block once for each item in the collection 
+- While loop runs as long as a certain condition is true
+- Use to count up while under a certain number range
+- Example: while current_number <= 5: increment 
+- Useful to manually choose to quit
+
+Letting the User Choose When to Quit
+- while message != 'quit': 
+
+Using a Flag 
+- If there are many ways to end the program and not just one way
+- Like a game, quit, win, lose etc
+- Use a flag variable, signals to the program. Run while True, 
+- Seperates the while logic with the comparison logic to be easier to read
+- Example: active = False
+
+Using break to Exit a Loop 
+- To exit a while loop without going through remaining code left use break statement
+- Similar to changing flag to false
+- Example: if city == 'quit': break
+
+Using continue in a Loop 
+- Use continue instead of break, to rather then leaving, you return to beginning, ignoring the lines after but keeping loop active
+- Example: if current_number % 2 == 0: continue
+
+Avoiding Infinite Loops 
+- Every while loop needs a killswitch, or a way to stop the code from running more 
+- If no end case the loop runs forever
+- Example: #omitted x += 1
+- If looping infinitly, use CTRL C or close terminal window
+
+Exercise 7-4: Pizza Toppings
+Exercise 7-5: Movie Tickets
+Exercise 7-6: Three Exits 
+Exercise 7-7: Infinity 

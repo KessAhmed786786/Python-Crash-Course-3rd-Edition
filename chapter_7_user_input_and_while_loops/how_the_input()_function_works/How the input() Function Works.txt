@@ -1,0 +1,35 @@
+# Chapter 7 - User Input and while Loops
+# Kess Ahmed, 24th July 2025
+
+CONTENTS:
+- Writing Clear Prompts
+- Using int() to Accept Numerical Input
+- The Modulo Operator
+- Exercise 7-1: Rental Car
+- Exercise 7-2: Restaurant Seating
+- Exercise 7-3: Multiples of Ten
+
+Writing Clear Prompts
+- Often problems are solved by entering a user's input 
+- input(), function pauses your program and waits for the user to enter some text. It then assigns to a variable
+- One argument, the prompt that will be displayed
+- Example: message = input("Input here:")
+- Easy actionable and simple to follow for an end user
+- Add space after : to allow for cleaner input
+- If prompt is longer, use multiple of the same variable
+- Exapmle: prompt = "Yo", prompt += "\nHI" name = input(prompt)
+- This is an example of a multiline string
+
+
+Using int() to Accept Numerical Input
+- input(), interprets all as strings, but what about int?
+- Convert strings into integers
+- Example: age = int(age)
+
+The Modulo Operator
+- Divides one number by another and returns the remainder
+- Example: if number % 2 == 0: , else: 
+
+Exercise 7-1: Rental Car
+Exercise 7-2: Restaurant Seating
+Exercise 7-3: Multiples of Ten
