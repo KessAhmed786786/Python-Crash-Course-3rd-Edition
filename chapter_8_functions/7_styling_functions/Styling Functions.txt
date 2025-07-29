@@ -1,0 +1,7 @@
+# Chapter 8 - Functions
+# Kess Ahmed, 29th July 2025
+
+CONTENTS:
+- Exercise 8-15: Printing Models
+- Exercise 8-16: Imports
+- Exercise 8-17: Styling Functions

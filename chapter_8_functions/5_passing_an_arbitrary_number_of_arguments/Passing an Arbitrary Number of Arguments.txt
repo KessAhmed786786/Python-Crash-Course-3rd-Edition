@@ -1,0 +1,9 @@
+# Chapter 8 - Functions
+# Kess Ahmed, 29th July 2025
+
+CONTENTS:
+- Mixing Positional and Arbitrary Arguments 
+- Using Arbitrary Keyword Arguments 
+- Exercise 8-12: Sandwiches
+- Exercise 8-13: User Profile 
+- Exercise 8-14: Cars

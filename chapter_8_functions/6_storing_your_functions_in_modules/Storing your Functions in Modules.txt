@@ -1,0 +1,10 @@
+# Chapter 8 - Functions
+# Kess Ahmed, 29th July 2025
+
+CONTENTS:
+- Importing an Entire Module
+- Importing Specific Functions
+- Using as to Give a Function an Alias
+- Using as to Give a Module an Alias
+- Importing All Functions in a Module
+

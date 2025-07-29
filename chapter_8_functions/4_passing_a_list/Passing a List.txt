@@ -1,0 +1,49 @@
+# Chapter 8 - Functions
+# Kess Ahmed, 29th July 2025
+
+CONTENTS:
+- Modifying a List in a Function
+- Preventing a Function from Modifying a List 
+- Exercise 8-9: Messages
+- Exercise 8-10: Sending Messages
+- Exercise 8-11: Archived Messages
+
+Modifying a List in a Function
+- Fuction gains direct access to the list contents
+- Edit permanent changes during a list while iterating
+- Split function into, editing list, the display that list
+
+EXAMPLE: Iterate and greet names in list names
+
+def greet_names(names):
+    for name in names:
+        message = f"Hello, {name.title()}"
+        print(message)
+
+- EXAMPLE: Use the printshop simulation
+
+def print_models(unprinted_designs, completed_models):
+while unprinted_designs:
+    current_design = unprinted_designs.pop()
+    print(f"Printing model: {current_design}")
+    completed_models.append(current_design)
+
+def show_completed_models(completed_models):
+    print("\nPrinted:")
+    for completed_model in completed_models:
+        print(completed_model)
+
+- every function should have one specific job to do rather than extra jobs
+
+Preventing a Function from Modifying a List 
+- You may want to print convert designs to finihsed but want to keep the original list copy, 
+- Pass a list copy slice rather than that specific list
+- Beware, copies take time and memory during this process
+
+EXAMPLE: Passing a slice copy list 
+
+function_name(list_name[:])
+
+Exercise 8-9: Messages
+Exercise 8-10: Sending Messages
+Exercise 8-11: Archived Messages

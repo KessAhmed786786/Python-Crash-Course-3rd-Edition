@@ -1,0 +1,80 @@
+# Chapter 8 - Functions
+# Kess Ahmed, 29th July 2025
+
+CONTENTS:
+- Positional Arguments
+- Keyword Arguments 
+- Default Values
+- Equivalent Function Calls
+- Avoiding Argument Errors
+- Exercise 8-3: T-Shirt
+- Exercise 8-4: Large Shirts
+- Exercise 8-5: Cities
+
+Positional Arguments
+- Simple way to pass multiple arguments in order
+
+EXAMPLE: Using Positional Arguments
+
+def describe_pet(animal, name):
+    """Display pet info"""
+    print(f"\n I have a {animal}.")
+    print(f"My {animal}'s name is {name.title()}")
+
+describe_pet('hamster','harry')
+
+- order matters, make sure the value is in correct parameter, so pass correctly
+
+Keyword Arguments 
+- is name-value pair that you pass instead of the raw data
+- really specifiy that parameter to assign to the value
+
+EXAMPLE: Using Keyword Arguments
+
+def describe_pet(animal, name):
+    """Display pet info"""
+    print(f"\n I have a {animal}.")
+    print(f"My {animal}'s name is {name.title()}")
+
+describe_pet(animal='hamster', name='harry')
+
+Default Values
+- some functions have default values, for each parameter
+- some other argument passed then it is replaced
+- can omitt an argument for shortness 
+
+EXAMPLE: Default values 
+
+def describe_pet(name, animal='dog'):
+    """Display pet info"""
+    print(f"\n I have a {animal}.")
+    print(f"My {animal}'s name is {name.title()}")
+
+describe_pet(name='willie')
+
+- beware of function calling as position still matters, therefore we swapped the name and animal parameter to make sure if name is called without keyword it will still work
+- default values must be reordered to be at the end 
+
+Equivalent Function Calls
+- Using position, keyword and default value there a many ways to call function
+
+EXAMPLE: Using function calls
+
+# A dog named Willie.
+describe_pet('willie')
+describe_pet(pet_name='willie')
+# A hamster named Harry.
+describe_pet('harry', 'hamster')
+describe_pet(pet_name='harry', animal_type='hamster')
+describe_pet(animal_type='hamster', pet_name='harry')
+
+Avoiding Argument Errors
+- When arguments expected or too low or high
+- good naming for parameter help when debugging
+
+Exercise 8-3: T-Shirt
+Exercise 8-4: Large Shirts
+Exercise 8-5: Cities
+
+SUMMARY:
+- Pass arguments using default values, keywords and position to reduce common arguments entering

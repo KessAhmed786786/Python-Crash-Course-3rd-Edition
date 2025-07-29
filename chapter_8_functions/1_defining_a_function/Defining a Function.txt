@@ -1,0 +1,43 @@
+# Chapter 8 - Functions
+# Kess Ahmed, 29th July 2025
+
+CONTENTS:
+- Passing Inforomation to a Function 
+- Arguments and Parameters
+- Exercise 8-1: Message
+- Exercise 8-2: Favorite Book
+
+Passing Inforomation to a Function 
+
+- EXAMPLE: Create a basic function
+
+def greet_user():
+    """Display simple greeting"""
+    print("Hello!")
+
+greet_user()
+
+- def - defines function name
+- () - take no or more parameter, information
+- body - function code block 
+- """comment""" - docstring tells what function does 
+- to call - function_name(parameter, ...):
+
+- EXAMPLE: Passing parameter information 
+
+def greet_user(username):
+    print(f"Hello, {username.title()}!")
+
+greet_user('jesse')
+
+- expects value all the time
+
+Arguments and Parameters
+- parameter - information the function requires
+- argument - the specific info piece given
+
+Exercise 8-1: Message
+Exercise 8-2: Favorite Book
+
+SUMMARY:
+- Define function, with and without parameters

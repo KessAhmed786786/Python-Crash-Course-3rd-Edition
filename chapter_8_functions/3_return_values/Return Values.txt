@@ -1,0 +1,99 @@
+# Chapter 8 - Functions
+# Kess Ahmed, 29th July 2025
+
+CONTENTS:
+- Returing a Simple Value
+- Making an Argument Optional
+- Returning a Dictionary
+- Using a Function with a while Loop
+- Exercise 8-6: City Names
+- Exercise 8-7: Album
+- Exercise 8-8: User Albums
+
+Returing a Simple Value
+- return value - whatever the function returns, sends it back to the line that called the function
+
+EXAMPLE: Returning a simple value 
+
+def get_format_name(first_name, last_name):
+    """Return a full name, neatly formatted"""
+    full_name = f"{first_name} {last_name}"
+    return full_name.title()
+
+musician = get_format_name('jimi','hendrix')
+print(musician)
+
+- Needs a variable to be assigined to it, or direct in print brackets
+
+Making an Argument Optional
+- Allow a user to choose if they want to use arguments or not
+- Use default values
+
+EXAMPLE: Return a more complicated string
+
+def get_format_name(first_name, middle_name, last_name):
+    """Return a full name, neatly formatted"""
+    full_name = f"{first_name} {middle_name} {last_name}"
+    return full_name.title()
+
+- But middle names sometimes not needed to handle using if statement, passing an empty default value
+
+EXAMPLE: 
+
+def get_format_name(first_name, last_name, middle_name=''):
+    if middle_name:
+        full_name = f"{first_name} {middle_name} {last_name}"
+    else:
+        full_name = f"{first_name} {last_name}"
+
+- Allows to handled various ranges of use cases
+
+Returning a Dictionary
+- build a dictoinary using the values and assigning in function
+
+EXAMPLE: Returing a Dictionary
+
+def build_person(first_name, last_name):
+    """Return a dictionary of informatino about a person"""
+    person = {'first': first_name,'last': last_name}
+    return person 
+
+musician = build_person('saul', 'goodman')
+
+- work with more saved meanginful data, rather than just printing and forgetting
+
+EXAMPLE: Optional dictionary
+
+def build_person(first_name, last_name, age=None):
+    person = {'first': first_name, 'last': last_name}
+    if age:
+        person['age'] = age
+    return person
+
+Using a Function with a while Loop
+- use while loop or any other python stucture to use functions
+- on way is while true, if q then exit, input first and last names into the function
+
+EXAMPLE: Using while Loop 
+
+while True:
+    print("\nEnter your name:")
+    print("(enter 'q' to quit)")
+
+    f_name = input("First name: ")
+    if f_name == 'q':
+        break
+    
+    l_name = input("Last name: ")
+    if l_name == 'q':
+        break
+    
+    formatted_name = get_format_name(f_name, l_name)
+    print(f"Hello, {format_name}")
+
+Exercise 8-6: City Names
+Exercise 8-7: Album
+Exercise 8-8: User Albums
+
+SUMMARY:
+- Return strings simply, which are assigned or directly injected in print, also use if statemnt to make some default vales optional, assign them dictionary and use while loop, both using truthy or falsy
