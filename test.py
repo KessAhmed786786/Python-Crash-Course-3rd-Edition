@@ -1,22 +1,10 @@
-cities = {
-    'paris': {
-        'country': 'france',
-        'population': 10_000_000,
-        'size': 'Big',
-    },
-    'cardiff': {
-        'country': 'united kingdom',
-        'population': 1_000_000,
-        'size': 'Small',
-    },
-    'mumbai': {
-        'country': 'india',
-        'population': 100_000_000,
-        'size': 'Big',
-    },
-}
+# Chapter 8 - Functions
+# Kess Ahmed, 29th July 2025
+# 
 
-for city, city_dictionary in cities.items():
-	print(f"--- {city.title()} ---")
-	for key, value in city_dictionary.items():
-		print(f"\t {key}: {value}")
+def get_format_name(first_name, last_name):
+    """Return a full name, neatly formatted"""
+    full_name = f"{first_name} {last_name}"
+    return full_name.title()
+
+print(get_format_name('jimi','hendrix'))
