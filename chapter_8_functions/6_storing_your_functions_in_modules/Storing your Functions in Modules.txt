@@ -1,5 +1,5 @@
 # Chapter 8 - Functions
-# Kess Ahmed, 29th July 2025
+# Kess Ahmed, 30th July 2025
 
 CONTENTS:
 - Importing an Entire Module
@@ -8,3 +8,43 @@ CONTENTS:
 - Using as to Give a Module an Alias
 - Importing All Functions in a Module
 
+Importing an Entire Module
+- Storing functions in a seperate file allows you to hide details
+- Import allows you to make use of external functions
+- Use import to import .py files
+
+EXAMPLE:
+
+module_name_py.function_name()
+
+Importing Specific Functions
+- You can limit to only one or couple functions rather than the whole set of functions 
+- Seperate commas for many functions
+- No . needed becauese it is explicit which function we used to import
+
+EXAMPLE:
+
+from module_name import function_name_0, function_name_1
+
+Using as to Give a Function an Alias
+- When Importing you can nickname your imported function, for when long name or duplicate name 
+
+EXAMPLE:
+
+from pizza import make_pizza as mp
+from module_name import function_name as fn
+
+Using as to Give a Module an Alias
+- Same nicknames for modules entierly
+
+EXAMPLE: 
+
+import pizza as p
+
+Importing All Functions in a Module
+- Import the whole function list without having to spell the moduel name all the time
+- Can overwrite the same named function so use carefully
+
+EXAMPLE: 
+
+from pizza import * 

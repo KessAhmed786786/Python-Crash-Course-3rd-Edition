@@ -1,7 +1,22 @@
 # Chapter 8 - Functions
-# Kess Ahmed, 29th July 2025
+# Kess Ahmed, 30th July 2025
 
 CONTENTS:
+- Styling Functions
+
+Styling Functions
+- use descriptive names and these names should use lowercase letters and underscores, same with modules
+- use docstring to format explaination
+- Use default values when user input is involved, no spaces between = 
+- Space out the brackets if over the pep 8 line, 79 characters
+- Use import after comments
+
 - Exercise 8-15: Printing Models
 - Exercise 8-16: Imports
 - Exercise 8-17: Styling Functions
+
+import module_name
+from module_name import function_name
+from module_name import function_name as fn
+import module_name as mn
+from module_name import *

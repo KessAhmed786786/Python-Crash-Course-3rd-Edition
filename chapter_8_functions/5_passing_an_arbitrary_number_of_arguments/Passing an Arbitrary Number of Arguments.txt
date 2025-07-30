@@ -1,5 +1,5 @@
 # Chapter 8 - Functions
-# Kess Ahmed, 29th July 2025
+# Kess Ahmed, 30th July 2025
 
 CONTENTS:
 - Mixing Positional and Arbitrary Arguments 
@@ -7,3 +7,47 @@ CONTENTS:
 - Exercise 8-12: Sandwiches
 - Exercise 8-13: User Profile 
 - Exercise 8-14: Cars
+
+Mixing Positional and Arbitrary Arguments 
+- Won't know ahead of time how many arguments you need
+- Allows you collect an arbitrary number of arguments from the calling statement
+- Pizza, many unknown items that will be passed depending
+
+EXAMPLE: 
+
+def make_pizza(*toppings):
+    """Print the list of toppings that have been requested"""
+    print(toppings)
+
+make_pizza('pepperoni')
+make_pizza('peppers', 'mushrooms', 'cheese')
+
+- Basically, make a tuple called toppings following asterisk which can be looped
+- Order, when using arbitrary with other argument types
+- Positional, keyword, arbitrary
+
+EXAMPLE:
+
+def make_pizz(size, *toppings):
+    print(f"Pizza, {size}-inch:)
+    for topping in toppings:
+        print(topping)
+
+- Generic *args parameter
+
+Using Arbitrary Keyword Arguments 
+- Use **user_info to indicate key value pairings, builds a dictionary
+- Generic **kwargs
+
+EXAMPLE:
+
+def build_profile(first, last, **user_info):
+    user_info['first_name'] = first
+    user_info['first_name'] = last
+    return user_info
+
+user_profile = build_profile('albert', 'einstein', location='princeton', field='physics')
+
+Exercise 8-12: Sandwiches
+Exercise 8-13: User Profile 
+Exercise 8-14: Cars
